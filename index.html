@@ -447,24 +447,8 @@ body{background:var(--ch-bg);background-image:radial-gradient(rgba(0,0,0,.03)1px
       }
     ];
   </script>
-
-
-const DATA=[
-{category:"Entrées",items:[
-{name:"Poulet tikka (4 pcs)",price:4.5,desc:"Dés de poulet macérés aux épices"},
-{name:"Agneau tikka (4 pcs)",price:5.5,desc:"Morceaux d’agneau marinés aux épices"},
-{name:"Crispy oignon (2 pcs)",price:3.5,desc:"Beignets d’oignons épicés"}]},
-{category:"Plats Tandoori",items:[
-{name:"Poulet tandoori (1 pc)",price:4.5},
-{name:"Gambas tandoori (2 pcs)",price:7}]},
-{category:"Pains maison",items:[
-{name:"Naan",price:2},
-{name:"Naan au fromage",price:3}]},
-{category:"Boissons",items:[
-{name:"Coca-Cola 33 cl",price:2},
-{name:"Thé indien massala",price:2.5}]}
-];
-
+<!-- RENDER / LOGIQUE -->
+  <script>
 const menuEl=document.getElementById("menu");
 const searchEl=document.getElementById("search");
 const selected=new Map();
